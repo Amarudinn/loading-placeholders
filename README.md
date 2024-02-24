@@ -19,7 +19,7 @@ npm install loading-placeholders
 
         return (
             {
-                loadingState !== 200 
+                loadingState !== 200 //If you're using network status
                 ?
                     <Placeholders height="100px" width="80px" br="15px" n="10" margin="0.8rem" />
                     // 9 placeholders with the height of 100px, width of 80px and margin of 0.8rem
